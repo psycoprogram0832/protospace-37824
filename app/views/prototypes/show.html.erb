@@ -45,7 +45,6 @@
         <% end %>
         <ul class="comments_lists">
           <%# 投稿に紐づくコメントを一覧する処理を記述する %>
-           <%# render partial collectionでよさそう %>
           <% @comments.each do |comment| %>
             <li class="comments_list">
               <%= comment.content %>
